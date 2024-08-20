@@ -1,7 +1,20 @@
-def operation():
-  print(10+5)
-  print(10-5)
-  print(10*5)
+
+def add():
+   print(10+5)
+
+def sub():
+    print(10-5)
+
+def mul():
+   print(10*5)
+
+
+def div():
   print(10/5)
+  
+
 if__name__=="__main__":
-  operation()
+  add()
+  sub()
+  mul()
+  div()
