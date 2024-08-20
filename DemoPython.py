@@ -1,20 +1,21 @@
+class Sample:
+   def add(self):
+      print(10+5)
 
-def add():
-   print(10+5)
-
-def sub():
+   def sub(self):
     print(10-5)
 
-def mul():
+def mul(self):
    print(10*5)
 
 
-def div():
+def div(self):
   print(10/5)
   
 
 if__name__=="__main__":
-  add()
-  sub()
-  mul()
-  div()
+    s= Sample()
+      s.add()
+     s.sub()
+     s.mul()
+     s.div()
